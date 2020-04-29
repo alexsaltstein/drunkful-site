@@ -122,10 +122,14 @@ ul:hover{
     }
     .image-text{
         width: 100%;
-        margin: 1em 0;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
     .download-button{
         margin: 0em 0em;
+    }
+    .flip{
+        flex-direction: column-reverse;
     }
     ul{
         flex-direction: column;
