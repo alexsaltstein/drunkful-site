@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "PassionOne-Regular"; 
+    src: url("../fonts/PassionOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PassionOne-Bold";
+    src: url("../fonts/PassionOne-Bold.ttf");
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.round-rectangle{
+    margin: 1em;
+    padding: 2em;
+    background-color:#ffff; 
+    border-radius: 10px;
+    width: 85%;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.62);
+}
+
+h1{
+    font-family: 'PassionOne-Bold';
+    font-size: 40px;
+}
+h2{
+    font-family: 'PassionOne-Bold';
+    font-size: 35px;
+}
+span{
+    font-size: 30px;
+    text-align: left;
+}
+body{
+    font-family: 'PassionOne-Regular';
+    background: linear-gradient(#ffcb45, #ffcb45, #ffcb45, #ffffff)
+}
