@@ -121,9 +121,11 @@ ul:hover{
         align-items: center;
     }
     .image-text{
-        width: 100%;
+        width: 70%;
         margin-top: 2em;
         margin-bottom: 2em;
+        margin-left: 0;
+        margin-right: 0;
     }
     .download-button{
         margin: 0em 0em;
