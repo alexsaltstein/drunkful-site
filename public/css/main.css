@@ -126,4 +126,10 @@ ul:hover{
     .download-button{
         margin: 0em 0em;
     }
+    ul{
+        flex-direction: column;
+    }
+    .dot{
+        display: none;
+    }
 }
