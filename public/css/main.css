@@ -80,6 +80,11 @@ body{
     background: rgb(255,203,69);
 }
 
+.isDisabled {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
 ul {
     width: 100%;
     list-style-type: none;
